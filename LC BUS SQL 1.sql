@@ -94,7 +94,7 @@ INSERT INTO Calendar (service_days, start_date, end_date) VALUES
 INSERT INTO Fares (fare_id, fare_description) VALUES
             ('1', 'Regular - Regular, Senior, Disabled'),
             ('2', 'Xpress/BRAVO - Regular'),
-            ('3', 'LC Fair - Regular');       
+            ('3', 'OC Fair - Regular');       
 
 INSERT INTO agency (agency_id, agency_name) VALUES 
             ('1', 'Orange County Transportation Authority'),
@@ -128,7 +128,7 @@ INSERT INTO routes (route_id, agency_id, fare_id, route_description, roads_used,
             ('53', '1', '1', 'Anaheim to Irvine', 'Main St', 'Regular'),
             ('53X', '1', '2', 'Anaheim to Irvine', 'Main St', 'Xpress'),
             ('54', '1', '1', 'Garden Grove to Orange', 'Chapman Ave', 'Regular'),
-            ('54', '1', '1', 'Stanton to Orange', 'Chapman Ave', 'Regular'),
+            ('54', '1', '1', 'Garden Grove to Orange (Rancho Santiago)', 'Chapman Ave', 'Regular'),
             ('55', '1', '1', 'Santa Ana to Newport Beach', 'Main St/Standard Ave/Grand Ave/Halladay St/MacArthur Blvd/Bristol St/Baker St/Fairview St/Harbor Blvd/19th St/Dover St', 'Regular'),
             ('56', '1', '1', 'Garden Grove to Orange', 'Garden Grove Blvd/La Veta Ave', 'Regular'),
             ('57', '1', '1', 'Brea to Newport Beach', 'State College Blvd/Bristol St', 'Regular'),
@@ -164,16 +164,16 @@ INSERT INTO routes (route_id, agency_id, fare_id, route_description, roads_used,
             ('529', '1', '2', 'Fullerton to Huntington Beach', 'Beach Blvd', 'BRAVO'),
             ('543', '1', '2', 'Fullerton to Santa Ana', 'Harbor Blvd', 'BRAVO'),
             ('560', '1', '2', 'Long Beach to Santa Ana', 'Westminster Blvd/Seventeenth St', 'BRAVO'),
-            ('633', '1', '3', 'LC Fairgrounds to Fullerton', '91 fwy/55 fwy', 'LC Fair Express'),
-            ('642', '1', '3', 'LC Fairgrounds to Orange', '55 fwy', 'LC Fair Express'),
-            ('650', '1', '3', 'LC Fairgrounds to Anaheim', '57 fwy/22 fwy/55 fwy', 'LC Fair Express'),
-            ('662', '1', '3', 'LC Fairground to Santa Ana', '5 fwy/55 fwy', 'LC Fair Express'),
-            ('670', '1', '3', 'LC Fairgrounds to Huntington Beach', '405 fwy', 'LC Fair Express'),
-            ('671', '2', '3', 'LC Fairgrounds to Anaheim Hills', '55 fwy', 'LC Fair Express'),
-            ('683', '2', '3', 'LC Fairgrounds to Laguna Hills', '5 fwy', 'LC Fair Express'),
-            ('688', '2', '3', 'Irvine to LC Fairgrounds', '5 fwy', 'LC Fair Express'),
-            ('689', '1', '3', 'LC Fairgrounds to Laguna Beach', '405 fwy', 'LC Fair Express'),
-            ('691', '2', '3', 'LC Fairgrounds to San Clemente', '5 fwy', 'LC Fair Express');
+            ('633', '1', '3', 'OC Fairgrounds to Fullerton', '91 fwy/55 fwy', 'OC Fair Express'),
+            ('642', '1', '3', 'OC Fairgrounds to Orange', '55 fwy', 'OC Fair Express'),
+            ('650', '1', '3', 'OC Fairgrounds to Anaheim', '57 fwy/22 fwy/55 fwy', 'OC Fair Express'),
+            ('662', '1', '3', 'OC Fairground to Santa Ana', '5 fwy/55 fwy', 'OC Fair Express'),
+            ('670', '1', '3', 'OC Fairgrounds to Huntington Beach', '405 fwy', 'OC Fair Express'),
+            ('671', '2', '3', 'OC Fairgrounds to Anaheim Hills', '55 fwy', 'OC Fair Express'),
+            ('683', '2', '3', 'OC Fairgrounds to Laguna Hills', '5 fwy', 'OC Fair Express'),
+            ('688', '2', '3', 'Irvine to OC Fairgrounds', '5 fwy', 'OC Fair Express'),
+            ('689', '1', '3', 'OC Fairgrounds to Laguna Beach', '405 fwy', 'OC Fair Express'),
+            ('691', '2', '3', 'OC Fairgrounds to San Clemente', '5 fwy', 'OC Fair Express');
 
 INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsign, block_id ) VALUES 
             --ROUTE 1--
