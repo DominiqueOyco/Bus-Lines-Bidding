@@ -789,7 +789,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('50', '1', 'MTUWTHF', '650514', '20:20', 'THE VILLAGE AT ORANGE', '5020'),
             ('50', '1', 'MTUWTHF', '650515', '20:50', 'THE VILLAGE AT ORANGE', '5016'),
             ('50', '1', 'MTUWTHF', '650516', '21:20', 'THE VILLAGE AT ORANGE', '5048'),
-            ('50', '1', 'MTUWTHF', '650517', '21:50', 'THE VILLAGE AT ORANGE', 'XXXX'),
+            ('50', '1', 'MTUWTHF', '650517', '21:50', 'THE VILLAGE AT ORANGE', '6045'),
             ('50', '1', 'MTUWTHF', '650518', '22:30', 'THE VILLAGE AT ORANGE', '111'),
             ('50', '1', 'MTUWTHF', '650519', '23:00', 'THE VILLAGE AT ORANGE', '5041'),
             ('50', '1', 'MTUWTHF', '650520', '23:33', 'THE VILLAGE AT ORANGE', '5020'),
