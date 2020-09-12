@@ -404,8 +404,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('37', '1', 'MTUWTHF', '376424', '20:01', 'FOUNTAIN VALLEY - EUCLID & TALBERT', 'XXX8'),
             ('37', '1', 'MTUWTHF', '376425', '20:36', 'FOUNTAIN VALLEY - EUCLID & TALBERT', 'XXX6'),
             ('37', '1', 'MTUWTHF', '376426', '21:11', 'FOUNTAIN VALLEY - EUCLID & TALBERT', 'XXXX'),
-            ('37', '1', 'MTUWTHF', '376427', '21:46', 'FOUNTAIN VALLEY - EUCLID & TALBERT', 'XXX4'),
-            
+            ('37', '1', 'MTUWTHF', '376427', '21:46', 'FOUNTAIN VALLEY - EUCLID & TALBERT', 'XXX4'), 
 
             ('37', '1', 'MTUWTHF', '376476', '04:52', 'LA HABRA - 1ST & MAIN', 'XXX1'),
             ('37', '1', 'MTUWTHF', '376477', '05:29', 'LA HABRA - 1ST & MAIN', 'XXX3'),
