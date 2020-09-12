@@ -571,11 +571,8 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('47', '1', 'MTUWTHF', '647376', '03:50', 'FULLERTON TRANSPORTATION CENTER', 'XXX1'),
             ('47', '1', 'MTUWTHF', '647377', '04:20', 'FULLERTON TRANSPORTATION CENTER', 'XXX2'),
             ('47', '1', 'MTUWTHF', '647378', '04:48', 'FULLERTON TRANSPORTATION CENTER', 'XXXX'),
-<<<<<<< HEAD
             ('47', '1', 'MTUWTHF', '647379', '05:10', 'FULLERTON TRANSPORTATION CENTER', 'XXX4X'),
-=======
             ('47', '1', 'MTUWTHF', '647379', '05:10', 'FULLERTON TRANSPORTATION CENTER', 'XXX4'),
->>>>>>> fc5ef7a5a0f3e56ac9decfb6ac84226402b57879
             ('47A', '1', 'MTUWTHF', '647380', '05:23', 'FULLERTON TRANSPORTATION CENTER', 'XXX5'), 
             ('47', '1', 'MTUWTHF', '647381', '05:45', 'FULLERTON TRANSPORTATION CENTER', 'XXX7'), 
             ('47', '1', 'MTUWTHF', '647382', '06:00', 'FULLERTON TRANSPORTATION CENTER', 'XXXX'), 
