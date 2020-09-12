@@ -513,6 +513,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('43', '1', 'MTUWTHF', '6XXX29', '22:48', 'COSTA MESA - PARK & NEWPORT', 'XXX2'),
             ('43', '1', 'MTUWTHF', '6XXX30', '23:18', 'COSTA MESA - PARK & NEWPORT', 'XXX9'),
             ('43', '1', 'MTUWTHF', '643XXX', '24:18', 'COSTA MESA - PARK & NEWPORT', 'XXX8'),
+
             ('43', '1', 'MTUWTHF', '6XXX76', '04:01', 'FULLERTON - NORTH COURT', 'XXX1X'),
             ('43', '1', 'MTUWTHF', '6XXX77', '04:15', 'FULLERTON - NORTH COURT', 'XXX3'),
             ('43', '1', 'MTUWTHF', '6XXX78', '04:36', 'FULLERTON - NORTH COURT', 'XXX3'),
@@ -569,6 +570,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('43', '1', 'MTUWTHF', '643521', '22:32', 'FULLERTON - NORTH COURT', 'XXX5'),
             ('43', '1', 'MTUWTHF', '643522', '23:32', 'FULLERTON TRANSPORTATION CENTER', 'XXX3'),
             ('43', '1', 'MTUWTHF', '643523', '24:32', 'FULLERTON TRANSPORTATION CENTER', 'XXX2'),
+
 
             --ROUTE 47/47A--
             ('47', '1', 'MTUWTHF', '647376', '03:50', 'FULLERTON TRANSPORTATION CENTER', 'XXX1'),
@@ -690,6 +692,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('47', '1', 'MTUWTHF', '6XXX27', '21:29', 'BALBOA ISLAND - BALBOA & 23RD', 'XXX7'), 
             ('47', '1', 'MTUWTHF', '6XXX28', '21:59', 'BALBOA ISLAND - OCEANFRONT & PALM', '83XX'), --RESERVE FOR 83 BUS  
 
+
             --ROUTE 50--
             ('50', '1', 'MTUWTHF', '650376', '03:47', 'LONG BEACH - CAL STATE LONG BEACH', '5011'),
             ('50', '1', 'MTUWTHF', '650377', '04:11', 'LONG BEACH - CAL STATE LONG BEACH', '112'),
@@ -797,6 +800,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('50', '1', 'MTUWTHF', '650519', '23:00', 'THE VILLAGE AT ORANGE', '5041'),
             ('50', '1', 'MTUWTHF', '650520', '23:33', 'THE VILLAGE AT ORANGE', '5020'),
             ('50', '1', 'MTUWTHF', '650521', '24:42', 'THE VILLAGE AT ORANGE', '5048'),
+
 
             --ROUTE 53/53X--
             ('53', '1', 'MTUWTHF', '653376', '04:03', 'SANTA ANA - MACARTHUR BLVD & MACARTHUR PLACE', 'XXX1X'),
