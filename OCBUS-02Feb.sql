@@ -1600,7 +1600,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('64', '1', 'MTUWTHF', '6XXX36', '19:42', 'LARWIN SQUARE ', '6450'),
             ('64', '1', 'MTUWTHF', '6XXX38', '20:49', 'LARWIN SQUARE ', 'XXX6'),
             ('64', '1', 'MTUWTHF', '6XXX39', '21:49', 'LARWIN SQUARE ', '6450'),
-            ('64', '1', 'MTUWTHF', '6XXX40', '22:45', 'LARWIN SQUARE ', '4341'),
+            ('64', '1', 'MTUWTHF', '6XXX40', '22:45', 'LARWIN SQUARE ', 'XXXX'),
 
             ('64', '1', 'MTUWTHF', '646476', '04:52', 'HUNTINGTON BEACH - BOEING', 'XXX1'),
             ('64', '1', 'MTUWTHF', '6XXX86', '04:55', 'HUNTINGTON BEACH - BOEING', 'XXX4'), 
@@ -1970,5 +1970,5 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
 --Select * FROM routes;
 --Select * FROM trips;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE trip_headsign = 'LONG BEACH - CAL STATE LONG BEACH' ORDER BY times;--
-Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '5511' ORDER BY times;
+Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '4341' ORDER BY times;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE route_id = '50' ORDER BY times;
