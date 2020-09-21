@@ -1435,7 +1435,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('60', '1', 'MTUWTHF', '660399', '11:13', 'LARWIN SQUARE', '60X3'),
             ('60', '1', 'MTUWTHF', '660400', '11:33', 'LARWIN SQUARE', '60X3'),
             ('60', '1', 'MTUWTHF', '660401', '11:53', 'LARWIN SQUARE', '60X4'),
-            ('60', '1', 'MTUWTHF', '660402', '12:13', 'LARWIN SQUARE', 'XXXX'), --RESERVED FOR A 56 BUS INTERLINE
+            ('60', '1', 'MTUWTHF', '660402', '12:13', 'LARWIN SQUARE', 'XXXX'), 
             ('60', '1', 'MTUWTHF', '660403', '12:30', 'LARWIN SQUARE', '60X2'),
             ('60', '1', 'MTUWTHF', '660404', '12:47', 'LARWIN SQUARE', '60X6'),
             ('60', '1', 'MTUWTHF', '660405', '13:07', 'LARWIN SQUARE', '6011'),
