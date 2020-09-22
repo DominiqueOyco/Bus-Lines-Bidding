@@ -1966,5 +1966,5 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
 --Select * FROM routes;
 --Select * FROM trips;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE trip_headsign = 'LONG BEACH - CAL STATE LONG BEACH' ORDER BY times;--
-Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '4341' ORDER BY times;
+Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '5011' ORDER BY times;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE route_id = '50' ORDER BY times;
