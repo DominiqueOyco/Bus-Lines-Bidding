@@ -965,7 +965,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('53', '1', 'MTUWTHF', '6XXX49', '19:00', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', 'XXX3'), 
             ('53', '1', 'MTUWTHF', '6XXX50', '19:50', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', '5011'),  
             ('53', '1', 'MTUWTHF', '6XXX51', '20:02', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', 'XXX1'),    
-            ('53', '1', 'MTUWTHF', '6XXX52', '20:50', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', '6014'), 
+            ('53', '1', 'MTUWTHF', '6XXX52', '20:50', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', 'XXXX'), 
             ('53', '1', 'MTUWTHF', '6XXX53', '21:04', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', '5311'),  
             ('53', '1', 'MTUWTHF', '6XXX54', '21:52', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', '5012'),    
             ('53', '1', 'MTUWTHF', '6XXX55', '22:04', 'ANAHEIM REGIONAL TRANSPORTATION INTERMODAL CENTER', 'XXX8'), 
@@ -1961,5 +1961,5 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
 --Select * FROM routes;
 --Select * FROM trips;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE trip_headsign = 'LONG BEACH - CAL STATE LONG BEACH' ORDER BY times;--
-Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '5011' ORDER BY times;
+Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '6014' ORDER BY times;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE route_id = '50' ORDER BY times;
