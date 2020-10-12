@@ -1523,7 +1523,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('60', '1', 'MTUWTHF', '660622', '22:27', 'LONG BEACH - CAL STATE LONG BEACH', '5441'),
             ('60', '1', 'MTUWTHF', '660623', '22:57', 'LONG BEACH - CAL STATE LONG BEACH', '6041'),
             ('60', '1', 'MTUWTHF', '660624', '23:34', 'LONG BEACH - CAL STATE LONG BEACH', '5042'),
-            ('60', '1', 'MTUWTHF', '660625', '24:04', 'LONG BEACH - CAL STATE LONG BEACH', 'XXXX'),
+            ('60', '1', 'MTUWTHF', '660625', '24:04', 'LONG BEACH - CAL STATE LONG BEACH', '5013'),
             ('60', '1', 'MTUWTHF', '660626', '24:34', 'LONG BEACH - CAL STATE LONG BEACH', '6641'),
 
             --ROUTE 64/64X--
