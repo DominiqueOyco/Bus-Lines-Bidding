@@ -1349,7 +1349,7 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
             ('57X', '1', 'MTUWTHF', '657XX86', '07:44', 'NEWPORT TRANSP CENTER XPRESS', '5713'),   
             ('57', '1', 'MTUWTHF', '657XX87', '07:48', 'COSTA MESA - BRISTOL & SUNFLOWER', 'XXX2'),   
             ('57X', '1', 'MTUWTHF', '657XX88', '08:10', 'NEWPORT TRANSP CENTER XPRESS', '57XX3'), 
-            ('57', '1', 'MTUWTHF', '657XX90', '08:14', 'COSTA MESA - BRISTOL & SUNFLOWER', '5344'), 
+            ('57', '1', 'MTUWTHF', '657XX90', '08:14', 'COSTA MESA - BRISTOL & SUNFLOWER', '5XXX'), 
             ('57X', '1', 'MTUWTHF', '657XX91', '08:40', 'NEWPORT TRANSP CENTER XPRESS', '57XX6'),   
             ('57', '1', 'MTUWTHF', '657XX92', '08:44', 'COSTA MESA - BRISTOL & SUNFLOWER', '57XX9'),   
             ('57X', '1', 'MTUWTHF', '657XX93', '09:06', 'NEWPORT TRANSP CENTER XPRESS', '57XX8'),   
@@ -1962,5 +1962,5 @@ INSERT INTO trips(route_id, agency_id, service_days, trip_id, times, trip_headsi
 --Select * FROM routes;
 --Select * FROM trips;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE trip_headsign = 'LONG BEACH - CAL STATE LONG BEACH' ORDER BY times;--
-Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '6049' ORDER BY times;
+Select times, route_id, trip_id, trip_headsign, block_id FROM trips WHERE block_id = '5344' ORDER BY times;
 --Select route_id, times, trip_headsign, block_id FROM trips WHERE route_id = '50' ORDER BY times;
